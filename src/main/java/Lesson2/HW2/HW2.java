@@ -21,7 +21,7 @@ public class HW2 {
 
     public static void isPositiveOrNegative(int x) {
         if (x >= 0) {
-            System.out.println(x + " положительное число!");
+            System.out.println(x + " положительное число!!!");
         } else {
             System.out.println(x + " отрицательное число!");
         }
