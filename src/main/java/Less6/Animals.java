@@ -1,12 +1,11 @@
 package Less6;
 
 public   class Animals {
+    private String name;
+
     public static void main(String[] args) {
 
     }
-    public class Animals {
-        String name;
-
         public Animals() {
         }
 
@@ -17,11 +16,13 @@ public   class Animals {
         public void animalInfo() {
             System.out.println("Животное: " + name);
         }
-    }
+
         public class Run {
             public void run() {
                 System.out.println("Животное бежит");
             }
+
+        }
 
     public class Dog extends Animals {
         public Dog(String name) {
@@ -39,9 +40,10 @@ public   class Animals {
     Cat cat = new Cat("Алеша");
             Dog dog = new Dog("Федя");
     Cross cross = new Cross(777);
+
 //cross.printInfo();
 
-cat.run(cross);
+//cat.run(cross);
         }
-}
+
 
